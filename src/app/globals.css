@@ -1,0 +1,248 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  min-height: 100vh;
+  position: relative;
+}
+
+.d-flex {
+  display: flex !important;;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.neon-card {
+  position: relative;
+  display: flex;
+  border-radius: .5rem;
+  padding: 1rem;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 500px;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+.z-index-3 {
+  z-index: 3;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 20px;
+}
+
+.not-found-text {
+  font-size: 35px;
+  margin: 0 auto;
+}
+
+.name-text {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.hobby-card-icon {
+  font-size: 25px;
+}
+
+.about-button {
+  font-size: 20px;
+}
+
+.navbar-container, .footer-container {
+  position: fixed;
+  display: flex;
+  height: 60px;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+}
+
+.navbar-container {
+  top: 0;
+  left: 0;
+}
+.footer-container {
+  bottom: 0;
+  left: 0;
+}
+
+.image-card {
+  max-width: 300px;
+}
+
+.image-card-header img {
+  height: 200px;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.lang-modal-btn {
+  font-size: 20px;
+  padding: .5rem .8rem;
+  border-radius: .75rem;
+}
+
+.develop-content {
+  color: orange;
+  font-size: 14px;
+}
+
+.footer-icons {
+  font-size: 20px;
+}
+.navbar-item-home h4 {
+  display: inline-block;
+}
+li.navbar-item-home a svg, a.navbar-item-home svg {
+  transform: rotate(-20deg);
+  transition: .2s linear;
+}
+li.navbar-item-home:hover a svg, a.navbar-item-home:hover svg {
+  transform: rotate(0);
+}
+.navbar-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.page-menu {
+  max-width: 50px;
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  backdrop-filter: blur(5px);
+  z-index: 5;
+  border-radius: .35rem;
+}
+
+.menu-page-item {
+  font-size: 20px;
+  transition: 0.2s linear;
+}
+
+.menu-page-item:hover {
+  cursor: pointer;
+}
+
+.navbar-item {
+  width: 170px;
+}
+
+.mobile-navbar-items {
+  display: flex;
+  align-content: space-between;
+}
+
+.mobile-navbar-items a {
+  margin: 0 auto;
+}
+
+.mobile-navbar-items a h4 {
+  display: inline-block;
+}
+
+.rights_reserved {
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+.contact-me-text {
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.icons-row {
+  text-align: center;
+  align-content: space-between;
+  display: flex;
+  padding: 1rem;
+}
+
+.icons-row-icon {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .name-text {
+    font-size: 30px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .content {
+    font-size: 18px;
+  }
+  .hobby-card-icon {
+    font-size: 20px;
+  }
+  .not-found-text {
+    font-size: 30px;
+  }
+  .about-button {
+    font-size: 15px;
+  }
+  .footer-icons {
+    font-size: 30px;
+  }
+  .footer-item {
+    margin-top: 1rem;
+  }
+  .avatar-row, .name-row {
+    width: 100%;
+    text-align: center;
+  }
+  .name-row h2 {
+    margin: 1rem auto 0;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .title {
+    font-size: 20px;
+  }
+  .content {
+    font-size: 16px;
+  }
+  .hobby-card-icon {
+    font-size: 15px;
+  }
+  .not-found-text {
+    font-size: 25px;
+  }
+}
+
+.not-found-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,62 @@
+{
+  "navbar": {
+    "home": "Strone Główną",
+    "skills": "Umiejętności",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt"
+  },
+  "about": {
+    "personal_title": "O mnie",
+    "personal_text": "Cześć, nazywam się Jakub. Pochodzę z Polski, a dokładniej z okolic miasta Gdańsk, gdzie również studiuje informatykę. Jestem osobą z natury przyjazną, która potrafi rozmawiać o wszystkich i o niczym. Swoja przygodę z programowaniem zacząłem od pisania stron internetowych, a obecnie piszę rozbudowane aplikacje full stackowe.",
+    "experience_title": "Życie zawodowe",
+    "experience_text": "Swoją pierwszą pracę w zawodzie rozpocząłem w kwietniu 2022 jako junior full stack developer. Nauczyłem się tam wielu ciekawych rzeczy jak na przykład konteneryzacja oprogramowania, troszke Kubernetesa czy przede wszystkim pracy zespołowej. Poznałem również nowe frameworki frontendowe takie jak Vue.js, Angular, czy backendowe jak Flask czy FastAPI.",
+    "student_title": "Życie studenckie",
+    "student_text": "Jestem obecnie studentem czwartego roku o kierunku informatycznym na Polsko Japońskiej Akademii Technik Komputerowych w Gdańsku o specjalizacji 'sztuczna inteligecja'.",
+    "hobby_title": "Hobby",
+    "hobby_text": "Ja ❤️",
+    "hobby_text_music": "Moim ulubionym gatunkiem muzycznym są pop i dance/electronik. Dla reklasu lubię też sluchać jazzu",
+    "hobby_text_programming": "Programowaniem interesuję się już od kilku lat, głownie dlatego, że mogę stworzyć coś i nie potrzebuję do tego różnych fizycznych materiałów, a jedynie wiedzy i umiejętności. Najbardziej uwielbiam tworzyć przejrzyste interfejsy użytkownika z ciekawymi animacjami.",
+    "hobby_text_ai": "Nie posiadam zbyt dużego doświadczenia ze sztuczna inteligencja na tle kodu. Swoja aktualną wiedzę nabyłem na studiach gdzie poznałem schematy wyszukiwania sztucznej inteligencji, oraz algorytmy scikit-learn. W wolnej chwili staram się kontynuować kurs na temat sztucznej inteligencji. Skąd zainteresowanie? Uważam, że sztuczna inteligencja jest w stanie przyspieszyć niektóre procesy lub ulatwić nam ich wykonywanie, jak na przykład wyszukiwanie informacji. A jak wiemy każdy lubi jak jest lżej.",
+    "hobby_text_cloud": "Z chmurą miałem styczność na kursie AWS oraz prywatnie stawiam programy czy serwery na Oracle Cloud. Ciekawi mnie jak to wygląda z pozycji kodu źdródłowego, a także jak wygląda planowanie architektury.",
+    "hobby_text_cooking": "Zainteresowanie gotowaniem pojawiło się przypadkiem. Gdy szukałem odskoczni od programowania, żeby się trochę zrelaksować, stwierdziłem, że może gotowanie mi w tym pomoże. Lubię jeść wszystko, jednakże głównie gustuje w kuchni azjatyckiej oraz włoskiej.",
+    "hobby_text_draw": "Lubię przeglądać np. Pinteresta w poszukiwaniu nowej tapety, czy tak po prostu oglądać czyjąc twórczość. Sam nie rysuje, nie posiadam wyćwiczonych umiejętności czy talenty w tym kierunku, jednakże lubie wyobrażać sobie to co na obrazie."
+  },
+  "links": {
+    "private_github": "Prywatny Github",
+    "student_github": "Studencki GitHub"
+  },
+  "skills": {
+    "cpp_text": "W C++ / C jestem początkującym jeśli chodzi o projekty i bardziej staram się nim bawić, a niżeli tworzyć coś większego. Troche większe projekty w tym języku miałem okazje pisać na studiach. Pierwszy z metaheurystyki, każdy miał wybrać problem i na jego podstawie napisać przeszukiwanie genetyczne. Moim problemem był problem z sumą podzbiorów. Drugi projekt to napisanie socket z wymianą plików.",
+    "python_text": "Pythona używam najczęściej. Głownie dlatego, że jest to naprawdę potężny język i posiada ogromne możliwości. Miałem szcztyczność z frameworkami takimi jak Django, FastAPI i czy Flask. Z pomocnych narzędzi często korzystam z Pandasa, który ułatwa np. odzczytywanie plików excelowych czy csv.",
+    "js_text": "Z javascriptu znam takie frameworki / biblioteki jak React, Next.js Vue.js oraz podstawy Angulara. Nie opanowałem ich do perfekcji i często musze korzystać z dumentacji lub pomocy internetu.",
+    "docker": "Docker głównie wykorzystuje do konteneryzacji baz danych. Wadą docker (wersji free) jest ograniczona możliwość tworzenia obrazów, co może utrudnić testowanie np. kubernetes'a dla projektów z większą ilością kontenerów.",
+    "database": "Bazy danych",
+    "database_text": "Cassandra, MongoDB czy bazy SQL znam dosyć dobrze. W pracy najwięcej spotykam się z bazami SQL. Dzięki temu poznałem sql-alchemy, ale także 'connectory' do baz danych.",
+    "systems": "Systemy",
+    "linux": "Wiekszość swojego czasu spędzam na systemach UNIX'owych. Głównie MacOS lub Linux'ie Mint'cie. Prywatnie staram się pracować na Windows'ie 11 z WSL. Posiadam podstawową wiedze na temat narzędzi systemowych oraz konfiguracji tych systemów. ",
+    "git": "Umiem pracować z systememem kontroli wersji Git. Jest to niezbędne do pracy w zespole, jak i ułatwienie do prześledzenia zmian. Potrafię inicjować repozytorium, dodawać i commitować zmiany, pracować na branchach, rozwiązywać konflikty, prześledzić historie commitów, zaciągać zmiany z innych branchy i zaktualizować aktualnie używany."
+  },
+  "contact": {
+    "contact_me": "Skontaktuj się ze mną",
+    "email": "Email",
+    "likedin": "Likedin"
+  },
+  "languages": {
+    "change_language": "Zmień język",
+    "english": "Angielski",
+    "polish": "Polski"
+  },
+  "portfolio": {
+    "chat_app_title": "Aplikacja do rozmów",
+    "chat_app_text": "Aplikacja jest wzorowana na jednej z najpopularniejszych aplikacji do rozmów, Discord.",
+    "dc_bot_title": "Asystent głosowy",
+    "dc_bot_text": "Asystent glosowy powstał z myślą o ułatwieniu wykonywania podstawowych komend na Discordzie za pomocą głosu.",
+    "developing": "Projekt jest obecnie w trakcie tworzenia. Po wypuszczeniu wersji testowej, udostępniony zostanie link."
+  },
+  "standards": {
+    "not_found": "Nie znaleziono strony",
+    "return_to_home": "Powrót na strone główną",
+    "rights_reserved": "Wszelkie prawa zastrzeżone",
+    "or": "lub"
+  }
+}

@@ -16,9 +16,9 @@ body.dark {
       }
     }
     .hamburger-btn:hover {
-      border: 1px solid $dark-links-hover-colors;
+      border: 1px solid $light-blue;
       svg {
-        color: $dark-links-hover-colors
+        color: $light-blue;
       }
     }
   }

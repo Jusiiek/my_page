@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
-import {Space, Dropdown, Button} from "antd";
+import {Space, Dropdown, Button, Menu} from "antd";
 import type { MenuProps } from 'antd';
 
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -25,9 +25,9 @@ export default function Navbar() {
             text: 'navbar.skills',
             to: '/skills',
             label: (
-                <a href="/skills">
+                <Link href="/skills">
                     {translate('navbar.skills')}
-                </a>
+                </Link>
             ),
         },
         {
@@ -35,9 +35,9 @@ export default function Navbar() {
             text: 'navbar.portfolio',
             to: '/portfolio',
             label: (
-                <a href="/portfolio">
+                <Link href="/portfolio">
                     {translate('navbar.portfolio')}
-                </a>
+                </Link>
             ),
         }
     ];
@@ -45,9 +45,9 @@ export default function Navbar() {
         {
             key: 0,
             label: (
-                <a href="/">
+                <Link href="/">
                     {translate('navbar.home')}
-                </a>
+                </Link>
             ),
         },
         ...desktopItems

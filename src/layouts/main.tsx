@@ -6,7 +6,6 @@ import {ThemeProvider} from "@/providers/theme_provider";
 
 import Navbar from "@/components/navbar";
 import PageMenu from "@/components/page_menu";
-import Copyright from "@/components/copyright";
 import Footer from "@/components/footer";
 
 export default function Main({children}: {children: React.ReactNode})  {
@@ -23,7 +22,6 @@ export default function Main({children}: {children: React.ReactNode})  {
                 <Navbar/>
                 <PageMenu/>
                 {children}
-                <Copyright/>
                 <Footer/>
             </ThemeProvider>
         </Space>

@@ -16,7 +16,7 @@ export default function Main({children}: {children: React.ReactNode})  {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="description" content="Jacob's homepage" />
                 <meta name="author" content="Jakub Żurawski" />
-                {/*<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />*/}
+                <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
                 <title>Jakub Żurawski</title>
             </head>
             <ThemeProvider>

@@ -12,6 +12,7 @@ import CHAT_APP_IMAGE from '@/images/chat_app_2.jpg';
 import DC_BOT_IMAGE from '@/images/dc_bot.png';
 
 import Layout from "@/layouts/layout";
+import Copyright from "@/components/copyright";
 
 export default function Portfolio(): React.JSX.Element {
     const windowSize = WindowSize();
@@ -60,6 +61,7 @@ export default function Portfolio(): React.JSX.Element {
                             </Col>
                         )}
                     </Row>)}
+                <Copyright/>
             </Space>
         </Layout>
     )

@@ -35,6 +35,7 @@ import {useLanguage} from "@/providers/language_provider";
 import Layout from "@/layouts/layout";
 
 import ProfileImage from '@/images/prof_2.jpg'
+import Copyright from "@/components/copyright";
 
 export default function Home() {
     const windowSize = WindowSize();
@@ -169,6 +170,7 @@ export default function Home() {
                             </h2>
                         </a>
                     </Row>
+                    <Copyright/>
                 </Space>
             </main>
         </Layout>

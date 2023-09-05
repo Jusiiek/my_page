@@ -3,6 +3,7 @@ import Link from 'next/link'
 import {Space, Row} from "antd";
 import {useLanguage} from "@/providers/language_provider";
 import React from "react";
+import Copyright from "@/components/copyright";
 
 export default function NotFound() {
     const {translate} = useLanguage();
@@ -20,6 +21,7 @@ export default function NotFound() {
                     </button>
                 </Link>
             </Row>
+            <Copyright/>
         </Space>
     )
 }

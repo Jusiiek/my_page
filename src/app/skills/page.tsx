@@ -18,6 +18,7 @@ import {CONFIG} from "@/config/config";
 import {useLanguage} from "@/providers/language_provider";
 
 import Layout from "@/layouts/layout";
+import Copyright from "@/components/copyright";
 
 export default function Skills(): React.JSX.Element {
     const windowSize = WindowSize();
@@ -132,6 +133,7 @@ export default function Skills(): React.JSX.Element {
                                 </Row>
                             </Col>)}
                     </Row>)}
+                <Copyright/>
             </Space>
         </Layout>
     )

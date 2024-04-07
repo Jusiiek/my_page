@@ -9,7 +9,7 @@
     "personal_title": "About me",
     "personal_text": "Hi, my name is Jacob. I am from Poland, more specifically from the vicinity of the city of Gdańsk, where I also study computer science. I am a naturally friendly person who can talk about everything and nothing. I started my programming journey with web development, and currently, I write complex full-stack applications.",
     "experience_title": "Professional life",
-    "experience_text": "I started my first job in the profession iun April 2022 as a junior full-stack developer. I learned many interesting things there, such as software containerization, a bit of Kubernetes, and above all, teamwork. I also got to know new frontend frameworks lie Vue.js, Angular, as well backend frameworks like Flask and FastAPI.",
+    "experience_text": "I started my first job in the profession iun April 2022 as a full-stack developer. I learned many interesting things there, such as software containerization, a bit of Kubernetes, and above all, teamwork. I also got to know new frontend frameworks lie Vue.js, Angular, as well backend frameworks like Flask and FastAPI.",
     "student_title": "Student's life",
     "student_text": "I am currently a fourth-year student majoring in computer science at the Polish-Japanese Academy of Computer Technology in Gdańsk, specializing at artificial intelligence.",
     "hobby_title": "Hobby",

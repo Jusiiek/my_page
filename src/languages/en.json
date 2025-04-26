@@ -45,16 +45,20 @@
     "polish": "Polish"
   },
   "portfolio": {
-    "chat_app_title": "Chat app",
-    "chat_app_text": "The app is modeled on one of the most popular chat application, Discord",
-    "dc_bot_title": "Voice assistant",
-    "dc_bot_text": "The voice assistant was created with the intention of making it easier to execute basic commands on Discord using voice.",
-    "developing": "The project is currently under development. After the release of the test version, a link will be provided."
+    "ai_chat_app_title": "AI Chat app",
+    "ai_chat_app_text": "An application for interacting with a model based on a custom text preprocessing module (Text Preprocessor)."
+  },
+  "projects": {
+    "ai_chat_app_title": "AI Chat app",
+    "ai_chat_app_description": "\"A conversational AI application with a FastAPI backend and a React + TailwindCSS frontend, allowing user registration and login, requiring an account to chat with the model, fully tested using Pytest and Playwright.\"\n"
   },
   "standards": {
     "not_found": "Page not found",
+    "project_not_found": "Project not found",
     "return_to_home": "Go to the home page",
     "rights_reserved": "All rights reserved",
-    "or": "or"
+    "or": "or",
+    "technologies": "Technologies",
+    "find_here": "You can find it here"
   }
 }

@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
-import {Space, Dropdown, Button, Menu} from "antd";
+import {Space, Dropdown, Button} from "antd";
 import type { MenuProps } from 'antd';
 
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";

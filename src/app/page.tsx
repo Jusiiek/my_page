@@ -34,7 +34,7 @@ import {useLanguage} from "@/providers/language_provider";
 
 import Layout from "@/layouts/layout";
 
-import ProfileImage from '@/images/prof_2.jpg'
+import ProfileImage from '@/images/avatar.jpg'
 import Copyright from "@/components/copyright";
 
 export default function Home() {

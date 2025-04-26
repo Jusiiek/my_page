@@ -45,16 +45,20 @@
     "polish": "Polski"
   },
   "portfolio": {
-    "chat_app_title": "Aplikacja do rozmów",
-    "chat_app_text": "Aplikacja jest wzorowana na jednej z najpopularniejszych aplikacji do rozmów, Discord.",
-    "dc_bot_title": "Asystent głosowy",
-    "dc_bot_text": "Asystent glosowy powstał z myślą o ułatwieniu wykonywania podstawowych komend na Discordzie za pomocą głosu.",
-    "developing": "Projekt jest obecnie w trakcie tworzenia. Po wypuszczeniu wersji testowej, udostępniony zostanie link."
+    "ai_chat_app_title": "Aplikacja do rozmów z AI",
+    "ai_chat_app_text": "Aplikacja umożliwiająca rozmowę z modelem opartym na własnym module przetwarzania tekstu (Text Preprocessor)."
+  },
+  "projects": {
+    "ai_chat_app_title": "Aplikacja do rozmów z AI",
+    "ai_chat_app_description": "\"Aplikacja konwersacyjna AI z backendem w FastAPI i frontendem w React + TailwindCSS, umożliwiająca rejestrację i logowanie użytkowników, wymagająca konta do czatowania z modelem, z pełnym zestawem testów napisanych w Pytest i Playwright.\"\n"
   },
   "standards": {
     "not_found": "Nie znaleziono strony",
+    "project_not_found": "Nie znaleziono projektu",
     "return_to_home": "Powrót na strone główną",
     "rights_reserved": "Wszelkie prawa zastrzeżone",
-    "or": "lub"
+    "or": "lub",
+    "technologies": "Technologie",
+    "find_here": "Możesz to znaleźć tutaj"
   }
 }

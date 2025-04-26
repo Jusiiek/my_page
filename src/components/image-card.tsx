@@ -1,34 +1,48 @@
 "use client";
-
-import {Row, Space} from "antd";
-
+import React from "react";
 import {useLanguage} from "@/providers/language_provider";
-export default function ImageCard({src, text, title, develop}: {src:string, text: string, title: string, develop: boolean}) {
-    const {translate} = useLanguage();
-    return (
-        <Space direction={'vertical'} className={'w-100 image-card text-center ml-auto mr-auto'}>
-            <Row className={'image-card-header w-100'}>
-                <img src={src} className={'image-card-image'}/>
-            </Row>
-            <Row className={'image-card-text w-100 p-4'}>
-                <Row className={'w-100 mb-3'}>
-                    <h2 className={'title ml-auto mr-auto'}>
-                        {translate(title)}
-                    </h2>
-                </Row>
-                <Row className={'content-row w-100'}>
-                    <h4 className={'content'}>
-                        {translate(text)}
-                    </h4>
-                </Row>
-                {develop ?
-                <Row className={'w-100 mt-5'}>
-                    <h4 className={'develop-content'}>
-                        {translate('portfolio.developing')}
-                    </h4>
-                </Row> : ''
-                }
-            </Row>
-        </Space>
-    )
+
+interface ImageCardProps {
+    src: string;
+    title?: string;
+    text?: string;
+    children?: React.ReactNode;
+    className?: string;
+    onClick?: () => void
 }
+
+const ImageCard: React.FC<ImageCardProps> = ({src, title, text, children, className, onClick}) => {
+    const {translate} = useLanguage();
+
+    return (
+        <div
+            onClick={onClick}
+            className={`${className} overflow-hidden rounded-2xl bg-white dark:bg-[#2D2D2D]`}
+        >
+            <img src={src} alt={title} className="w-full h-48 object-cover"/>
+            <div className="p-6 text-center">
+                {
+                    title ?
+                        <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-3">
+                            {translate(title)}
+                        </h2>
+                        : null
+                }
+                {
+                    text ?
+                        <h4 className="text-gray-600 dark:text-gray-300 text-base">
+                            {translate(text)}
+                        </h4>
+                        : null
+                }
+                {children && (
+                    <div className="content mt-4">
+                        {children}
+                    </div>
+                )}
+            </div>
+        </div>
+    );
+}
+
+export default ImageCard;

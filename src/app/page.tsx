@@ -123,16 +123,16 @@ export default function Home() {
                             <Card
                                 title={translate('about.experience_title')}
                                 content={translate('about.experience_text')}
-                                variant={'experience'}
-                                className={"h-[340px] overflow-scroll"}
+                                variant={'green'}
+                                className={"h-[450px] overflow-scroll"}
                             />
                         </Col>
                         <Col span={columnsSpan} className={'p-2'}>
                             <Card
                                 title={translate('about.student_title')}
                                 content={translate('about.student_text')}
-                                variant={'student'}
-                                className={"h-[340px] overflow-scroll"}
+                                variant={'blue'}
+                                className={"h-[450px] overflow-scroll"}
                             />
                         </Col>
                     </Row>

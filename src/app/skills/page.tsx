@@ -114,7 +114,7 @@ export default function Skills(): React.JSX.Element {
                                 <SkillCard
                                     title={translate(col.title)}
                                     description={translate(col.text)}
-                                    className={"h-[260px] overflow-scroll"}
+                                    className={"h-[300px] overflow-scroll"}
                                 />
                             </Col>)}
                     </Row>)}

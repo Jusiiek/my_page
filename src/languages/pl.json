@@ -11,7 +11,7 @@
     "experience_title": "Życie zawodowe",
     "experience_text": "Swoją pierwszą pracę w zawodzie rozpocząłem w kwietniu 2022 jako full stack developer. Nauczyłem się tam wielu ciekawych rzeczy jak na przykład konteneryzacja oprogramowania, troszke Kubernetesa czy przede wszystkim pracy zespołowej. Poznałem również nowe frameworki frontendowe takie jak Vue.js, Angular, czy backendowe jak Flask czy FastAPI.",
     "student_title": "Życie studenckie",
-    "student_text": "Jestem absolwentem kierunku informatycznego o specjalizacji „Sztuczna Inteligencja” na Polsko-Japońskiej Akademii Technik Komputerowych w Gdańsku.",
+    "student_text": "Jestem absolwentem kierunku informatycznego o specjalizacji „Sztuczna Inteligencja” na Polsko-Japońskiej Akademii Technik Komputerowych w Gdańsku.\n\nPodczas studiów realizowałem projekt inżynierski o nazwie \"Flash-Cards\", dostępny na moim studenckim GitHubie. Projekt opierał się głównie na generowaniu fiszek przy pomocy sztucznej inteligencji. Byłem odpowiedzialny za stworzenie backendu w FastAPI oraz aplikacji mobilnej w React Native.",
     "hobby_title": "Hobby",
     "hobby_text": "Lubię ❤️",
     "hobby_text_music": "Moim ulubionym gatunkiem muzycznym są pop i dance/electronik. Dla relaksu lubię też sluchać jazzu",

@@ -70,10 +70,6 @@ export default function Home() {
             "icon": faRobot
         },
         {
-            "text": "about.hobby_text_cloud",
-            "icon": faCloud
-        },
-        {
             "text": "about.hobby_text_cooking",
             "icon": faBowlRice
         },

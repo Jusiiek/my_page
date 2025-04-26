@@ -7,7 +7,7 @@
   },
   "about": {
     "personal_title": "About me",
-    "personal_text": "Hi, my name is Jacob. I am from Poland, more specifically from the vicinity of the city of Gdańsk, where I also study computer science. I am a naturally friendly person who can talk about everything and nothing. I started my programming journey with web development, and currently, I write complex full-stack applications.",
+    "personal_text": "Hi, my name is Jacob. I am from Poland, more specifically from the vicinity of the city of Gdańsk, where I also studied computer science. I am a naturally friendly person who can talk about everything and nothing. I started my programming journey with web development, and currently, I write complex full-stack applications.",
     "experience_title": "Professional life",
     "experience_text": "I started my first job in the profession iun April 2022 as a full-stack developer. I learned many interesting things there, such as software containerization, a bit of Kubernetes, and above all, teamwork. I also got to know new frontend frameworks lie Vue.js, Angular, as well backend frameworks like Flask and FastAPI.",
     "student_title": "Student's life",
@@ -17,9 +17,8 @@
     "hobby_text_music": "My favorite music genders are pop and dance/electronic. For relaxation, I also enjoy listening to jazz",
     "hobby_text_programming": "I've been interested in programming for several years now, mainly because I can create something without the need for various physical materials, only relying on knowledge and skills. I especially love creating user-friendly interfaces with interesting animations.",
     "hobby_text_ai": "I don't have much experience with artificial intelligence in terms of coding. I acquired my current knowledge during my studies, where I learned artificial intelligence search patterns and scikit-learn algorithms.In my free time, I try to continue my course on artificial intelligence. What sparked my interest? I believe that artificial intelligence has the potential to accelerate certain processes or make them easier for us, such as information retrieval. And as we know, everyone likes it when it's easier.",
-    "hobby_text_cloud": "I had contact with the cloud during the AWS course, and privately, I set up programs or servers on Oracle Cloud. I'm curious about how it looks from the perspective of source code and what the architecture planning looks like.",
     "hobby_text_cooking": "My interest in cooking arose by chance. When I was looking for a break from programming to relax a bit, I thought that maybe cooking could help me with that. I enjoy eating everything, but I particularly favor Asian and Italian cuisine.",
-    "hobby_text_draw": "I like browsing, for example, Pinterest, in search of a new wallpaper or simply to view someone's creativity. I don't draw myself, I don't have trained skills or talents in that direction, but I enjoy imagining what's in the picture."
+    "hobby_text_draw": "I don't draw myself, but I love admiring the talent and skills of others. That's why I often look for new wallpapers for my computer, browsing through various art galleries and collections."
   },
   "links": {
     "private_github": "Private Github",

@@ -1,15 +1,15 @@
 "use client";
 import React from "react";
 
-import {Space, Row, Col} from "antd";
+import {Space, Row, Col, Card} from "antd";
 
 import {
     faKeyboard,
     faComputerMouse,
     faComputer,
-    faDatabase,
-
+    faDatabase
 } from "@fortawesome/free-solid-svg-icons";
+import SkillCard from "@/components/skill_card";
 
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
@@ -47,16 +47,14 @@ export default function Skills(): React.JSX.Element {
             key: 'row-1',
             children: [
                 {
-                    key: 'cow-1',
-                    icon: '',
-                    header: 'Javascript',
-                    text: 'skills.js_text'
+                    key: 'col-1',
+                    title: "Frontend",
+                    text: "skills.frontend"
                 },
                 {
-                    key: 'cow-2',
-                    icon: '',
-                    header: 'Python',
-                    text: 'skills.python_text'
+                    key: 'col-2',
+                    title: 'Backend',
+                    text: 'skills.backend'
                 }
             ]
         },
@@ -64,47 +62,33 @@ export default function Skills(): React.JSX.Element {
             key: 'row-2',
             children: [
                 {
-                    key: 'cow-3',
-                    icon: '',
-                    header: 'C++',
-                    text: 'skills.cpp_text'
-                },
-                {
-                    key: 'cow-4',
-                    icon: '',
-                    header: 'Docker',
+                    key: 'col-4',
+                    title: 'Docker',
                     text: 'skills.docker'
                 },
+                {
+                    key: 'col-5',
+                    title: 'skills.database_title',
+                    text: 'skills.database_text'
+                }
             ]
         },
         {
             key: 'row-3',
             children: [
                 {
-                    key: 'cow-5',
-                    icon: '',
-                    header: 'skills.database',
-                    text: 'skills.database_text'
+                    key: 'col-6',
+                    title: 'skills.systems_title',
+                    text: 'skills.systems_text'
                 },
                 {
-                    key: 'cow-6',
-                    icon: '',
-                    header: 'skills.systems',
-                    text: 'skills.linux'
-                },
-            ]
-        },
-        {
-            key: 'row-4',
-            children: [
-                {
-                    key: 'cow-7',
-                    icon: '',
-                    header: 'Git',
+                    key: 'col-7',
+                    title: 'Git',
                     text: 'skills.git'
                 }
             ]
-        }
+        },
+
     ]
     return (
         <Layout>
@@ -117,20 +101,21 @@ export default function Skills(): React.JSX.Element {
                             </li>)}
                     </ul>
                 </Row>
+                <Row className={"w-100 text-center"}>
+                    <Col span={columnsSpan} className={'p-4 mt-2 mb-2'}>
+                        <Row className={'w-100 text-center'}>
+                        </Row>
+                    </Col>
+                </Row>
                 {items.map(row =>
                     <Row key={row.key} className={'w-100 text-center'}>
                         {row.children.map(col =>
                             <Col span={columnsSpan} key={col.key} className={'p-4 mt-2 mb-2'}>
-                                <Row className={'w-100 text-center'}>
-                                    <h2 className={'title ml-auto mr-auto'}>
-                                        {translate(col.header)}
-                                    </h2>
-                                </Row>
-                                <Row className={'w-100'}>
-                                    <h4 className={'content'}>
-                                        {translate(col.text)}
-                                    </h4>
-                                </Row>
+                                <SkillCard
+                                    title={translate(col.title)}
+                                    description={translate(col.text)}
+                                    className={"h-[260px] overflow-scroll"}
+                                />
                             </Col>)}
                     </Row>)}
                 <Copyright/>

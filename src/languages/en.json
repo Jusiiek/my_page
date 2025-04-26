@@ -25,15 +25,14 @@
     "student_github": "Student GitHub"
   },
   "skills": {
-    "cpp_text": "In C++ / C, I am a beginner when it comes to projects, and I mostly play around with it rather than creating something larger. I had the opportunity to work on slightly larger projects in this language during my studies. The first one was related to metaheuristics, where everyone had to choose a problem and implement a genetic algorithm for it. My problem was the subset sum problem. The second project involved writing sockets for file exchange.",
-    "python_text": "I use Python most often. Mainly because it's a truly powerful language with vast capabilities. I've had experience with frameworks like Django, FastAPI, and Flask. I often use helpful tools like Pandas, which makes tasks like reading Excel or CSV files easier, for example.",
-    "js_text": "I'm familiar with JavaScript frameworks / libraries like React, Next.js, Vue.js, and the basics of Angular. I haven't mastered them to perfection, and I often need to refer to documentation or seek help online.",
-    "docker": "I mainly use Docker for containerizing databases. One drawback of Docker (the free version) is the limited capability to create images, which can make testing with Kubernetes more challenging for projects with a larger number of containers.",
-    "database": "Databases",
-    "database_text": "I'm quite familiar with Cassandra, MongoDB, and SQL databases. I encounter SQL databases the most at work. Thanks to this, I've become acquainted with sql-alchemy as well as database connectors.",
-    "systems": "Operating Systems",
-    "linux": "I spend most of my time on UNIX-based systems, primarily MacOS or Linux Mint. Privately, I try to work on Windows 11 with WSL. I have basic knowledge about system tools and configuring these systems",
-    "git": "I can work with the Git version control system. It is essential for team collaboration and facilitates tracking changes. I can initialize repositories, add and commit changes, work with branches, resolve conflicts, review commit histories, pull changes from other branches, and update the currently used one."
+    "frontend": "I have experience with JavaScript frameworks and libraries such as React, Next.js, and Vue.js. In my daily work, I primarily use Vue. I also have hands-on experience with TypeScript, which I regularly use in my projects.",
+    "backend": "I mainly work with Python, appreciating its powerful capabilities and versatility. I have experience with backend frameworks such as Django, FastAPI, and Flask.\n\nFor data-related tasks, I frequently use libraries like Pandas and NumPy, which greatly simplify reading, processing, and analyzing data from Excel, CSV, and other sources.",
+    "docker": "I mainly use Docker for containerizing applications and databases. Currently, I am expanding my knowledge of Kubernetes to better manage containers in production environments.",
+    "database_title": "Databases",
+    "database_text": "I have solid experience with both SQL and NoSQL databases, including Cassandra and MongoDB. In my work, I primarily deal with SQL databases, which has allowed me to become proficient with tools like SQLAlchemy.",
+    "systems_title": "Operating Systems",
+    "systems_text": "I spend most of my time working with UNIX-based systems, mainly MacOS and Linux Mint. Privately, I also use Windows 11 with WSL. I have a strong foundation in working with system tools, configuring environments, and using the Bash shell.",
+    "git": "I use Git daily for version control and team collaboration. I'm familiar with common workflows like GitFlow and work comfortably with platforms such as GitHub and GitLab."
   },
   "contact": {
     "contact_me": "Contact me",

@@ -20,7 +20,7 @@ import {
     faPencil
 } from "@fortawesome/free-solid-svg-icons";
 
-import {LinkedinFilled } from "@ant-design/icons";
+import {LinkedinFilled} from "@ant-design/icons";
 
 import {useAnimate} from "framer-motion";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -85,7 +85,7 @@ export default function Home() {
                 <Space className="w-100 avatar-name-space mb-4" direction={'vertical'}>
                     <Row className={'w-100'}>
                         <div className={'avatar-row'}>
-                            <Avatar size={120} src={ProfileImage.src} />
+                            <Avatar size={120} src={ProfileImage.src}/>
                         </div>
                         <div className={'name-row'}>
                             <h2 className="ml-3 mb-0 name-text">
@@ -106,7 +106,13 @@ export default function Home() {
                         </h4>
                     </Row>
                     <Row className={'w-100 text-center'} ref={scope}>
-                        <button className={'about-button'} onClick={onButtonClick}>
+                        <button
+                            className="relative border-4 border-[#032e4b] bg-[#032e4b] text-[#f0e7db] font-bold text-xl rounded-2xl px-6 py-4 mx-auto text-center transition-colors duration-200
+                            hover:bg-[#397bc5] hover:border-[#397bc5] hover:text-[#202023]
+                            dark:bg-[#397bc5] dark:border-[#397bc5] dark:text-[#202023]
+                            dark:hover:bg-[#00bbf0] dark:hover:border-[#00bbf0] dark:hover:text-[#202023] about-button"
+                            onClick={onButtonClick}
+                        >
                             {translate('navbar.portfolio')}
                         </button>
                     </Row>
@@ -118,6 +124,7 @@ export default function Home() {
                                 title={translate('about.experience_title')}
                                 content={translate('about.experience_text')}
                                 variant={'experience'}
+                                className={"h-[340px] overflow-scroll"}
                             />
                         </Col>
                         <Col span={columnsSpan} className={'p-2'}>
@@ -125,6 +132,7 @@ export default function Home() {
                                 title={translate('about.student_title')}
                                 content={translate('about.student_text')}
                                 variant={'student'}
+                                className={"h-[340px] overflow-scroll"}
                             />
                         </Col>
                     </Row>
@@ -160,9 +168,10 @@ export default function Home() {
                         </h2>
                     </Row>
                     <Row className={'w-100 text-center'}>
-                        <a target='_blank' className={'ml-auto mr-auto'} href={'https://www.linkedin.com/in/jakub-%C5%BCurawski-2aa88726a/'}>
+                        <a target='_blank' className={'ml-auto mr-auto'}
+                           href={'https://www.linkedin.com/in/jakub-%C5%BCurawski-2aa88726a/'}>
                             <h2 className={'text-2xl'}>
-                                <LinkedinFilled className={'linked-in-icon'} />
+                                <LinkedinFilled className={'linked-in-icon'}/>
                             </h2>
                         </a>
                     </Row>
